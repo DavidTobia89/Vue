@@ -1,6 +1,7 @@
 <script setup>
 import { reactive, ref } from 'vue';
 import Alerta from './Alerta.vue'
+
 const busqueda = reactive({
     ciudad:'',
     pais:''
